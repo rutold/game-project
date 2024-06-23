@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Upgrade1",
+    "imageUrl": "path/to/image1.png",
+    "baseCost": 100,
+    "numberOfTiers": 3
+  },
+  {
+    "id": 2,
+    "name": "Upgrade2",
+    "imageUrl": "path/to/image2.png",
+    "baseCost": 200,
+    "numberOfTiers": 5
+  }
+]

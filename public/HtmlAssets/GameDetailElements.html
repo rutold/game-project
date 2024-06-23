@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+      .difficulty_container{
+          flex-direction: row;
+          display: flex;
+      }
+      .inside_elements_container{
+          flex-direction: row;
+          display: flex;
+      }
+      .wrapper_existing,.wrapper_new    {
+          flex-direction: column;
+          display: flex;
+          margin-left: 50px;
+      }
+      .error_message,.error_message_2{
+          display: none;
+      }
+
+
+  </style>
+    
+</head>
+<body>
+<div class ="element_container">
+    <div class="difficulty_container">
+        <p>Please select your difficulty:</p>
+         <input type="radio" id="easy" name="difficulty" value="EASY">
+         <label for="easy">Easy</label><br>
+         <input type="radio" id="normal" name="difficulty" value="NORMAL">
+         <label for="normal">Normal</label><br>
+         <input type="radio" id="hard" name="difficulty" value="HARD">
+         <label for="hard">Hard</label>
+        <input type="radio" id="random" name="difficulty" value="RANDOM">
+        <label for="random">Random</label>
+    </div>
+    <div class="game_seed_container" >
+        <div class="inside_elements_container">
+            <div class="wrapper_new">
+                <label for="seed">Create new seed</label>
+        <input type="text" name="seed" id="seed" placeholder="Example 'Cat'">
+                <p class="error_message"></p>
+                <button class="checkIfCanCreate">Check if such game exists</button>
+            </div>
+            <div class="wrapper_existing">
+                <label for="madeseed">use existing seed</label>
+                <input type="text" name="madeseed" id="madeseed" placeholder="Example 'Cat'">
+                <p class="error_message_2"></p>
+                <button class="checkExisting">Check if such game exists</button>
+            </div>
+    </div>
+    </div>
+</div>
+
+</body>
+</html>

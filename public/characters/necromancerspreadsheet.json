@@ -1,0 +1,1167 @@
+{
+  "frames": {
+    "necromancer-casting-11.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 69,
+        "h": 97
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 62,
+        "y": 15,
+        "w": 69,
+        "h": 97
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-casting-10.png": {
+      "frame": {
+        "x": 0,
+        "y": 97,
+        "w": 65,
+        "h": 93
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 62,
+        "y": 18,
+        "w": 65,
+        "h": 93
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-casting-9.png": {
+      "frame": {
+        "x": 0,
+        "y": 190,
+        "w": 59,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 62,
+        "y": 24,
+        "w": 59,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-casting-7.png": {
+      "frame": {
+        "x": 0,
+        "y": 276,
+        "w": 41,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 62,
+        "y": 34,
+        "w": 41,
+        "h": 75
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-casting-8.png": {
+      "frame": {
+        "x": 0,
+        "y": 351,
+        "w": 41,
+        "h": 74
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 62,
+        "y": 35,
+        "w": 41,
+        "h": 74
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-casting-4.png": {
+      "frame": {
+        "x": 0,
+        "y": 425,
+        "w": 40,
+        "h": 73
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 62,
+        "y": 39,
+        "w": 40,
+        "h": 73
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-casting-5.png": {
+      "frame": {
+        "x": 0,
+        "y": 498,
+        "w": 41,
+        "h": 72
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 62,
+        "y": 39,
+        "w": 41,
+        "h": 72
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-casting-6.png": {
+      "frame": {
+        "x": 40,
+        "y": 425,
+        "w": 41,
+        "h": 72
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 62,
+        "y": 38,
+        "w": 41,
+        "h": 72
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-dying-8.png": {
+      "frame": {
+        "x": 41,
+        "y": 276,
+        "w": 57,
+        "h": 62
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 46,
+        "y": 50,
+        "w": 57,
+        "h": 62
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-casting-3.png": {
+      "frame": {
+        "x": 59,
+        "y": 190,
+        "w": 40,
+        "h": 62
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 62,
+        "y": 51,
+        "w": 40,
+        "h": 62
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-dying-7.png": {
+      "frame": {
+        "x": 41,
+        "y": 338,
+        "w": 53,
+        "h": 60
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 48,
+        "y": 52,
+        "w": 53,
+        "h": 60
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-dying-6.png": {
+      "frame": {
+        "x": 65,
+        "y": 97,
+        "w": 50,
+        "h": 57
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 50,
+        "y": 54,
+        "w": 50,
+        "h": 57
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-idle-7.png": {
+      "frame": {
+        "x": 69,
+        "y": 0,
+        "w": 42,
+        "h": 56
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 62,
+        "y": 56,
+        "w": 42,
+        "h": 56
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-idle-3.png": {
+      "frame": {
+        "x": 69,
+        "y": 56,
+        "w": 41,
+        "h": 53
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 62,
+        "y": 61,
+        "w": 41,
+        "h": 53
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-casting-2.png": {
+      "frame": {
+        "x": 111,
+        "y": 0,
+        "w": 39,
+        "h": 56
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 62,
+        "y": 58,
+        "w": 39,
+        "h": 56
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-idle-6.png": {
+      "frame": {
+        "x": 0,
+        "y": 570,
+        "w": 42,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 62,
+        "y": 57,
+        "w": 42,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-idle-4.png": {
+      "frame": {
+        "x": 41,
+        "y": 497,
+        "w": 42,
+        "h": 53
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 62,
+        "y": 59,
+        "w": 42,
+        "h": 53
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-idle-5.png": {
+      "frame": {
+        "x": 81,
+        "y": 398,
+        "w": 42,
+        "h": 53
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 62,
+        "y": 58,
+        "w": 42,
+        "h": 53
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-dying-2.png": {
+      "frame": {
+        "x": 81,
+        "y": 451,
+        "w": 46,
+        "h": 45
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 59,
+        "y": 66,
+        "w": 46,
+        "h": 45
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-idle-2.png": {
+      "frame": {
+        "x": 94,
+        "y": 338,
+        "w": 42,
+        "h": 52
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 62,
+        "y": 63,
+        "w": 42,
+        "h": 52
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-dying-4.png": {
+      "frame": {
+        "x": 123,
+        "y": 390,
+        "w": 51,
+        "h": 47
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 54,
+        "y": 62,
+        "w": 51,
+        "h": 47
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-dying-5.png": {
+      "frame": {
+        "x": 98,
+        "y": 252,
+        "w": 44,
+        "h": 51
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 53,
+        "y": 58,
+        "w": 44,
+        "h": 51
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-idle-1.png": {
+      "frame": {
+        "x": 136,
+        "y": 303,
+        "w": 42,
+        "h": 51
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 62,
+        "y": 64,
+        "w": 42,
+        "h": 51
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-idle-8.png": {
+      "frame": {
+        "x": 99,
+        "y": 154,
+        "w": 42,
+        "h": 51
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 62,
+        "y": 63,
+        "w": 42,
+        "h": 51
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-dying-3.png": {
+      "frame": {
+        "x": 115,
+        "y": 205,
+        "w": 48,
+        "h": 47
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 57,
+        "y": 64,
+        "w": 48,
+        "h": 47
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-running-left-2.png": {
+      "frame": {
+        "x": 163,
+        "y": 205,
+        "w": 38,
+        "h": 47
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 66,
+        "y": 69,
+        "w": 38,
+        "h": 47
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-taking-damage-1.png": {
+      "frame": {
+        "x": 142,
+        "y": 252,
+        "w": 42,
+        "h": 51
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 62,
+        "y": 64,
+        "w": 42,
+        "h": 51
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-casting-1.png": {
+      "frame": {
+        "x": 115,
+        "y": 97,
+        "w": 41,
+        "h": 51
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 62,
+        "y": 64,
+        "w": 41,
+        "h": 51
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-taking-damage-5.png": {
+      "frame": {
+        "x": 141,
+        "y": 56,
+        "w": 41,
+        "h": 51
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 62,
+        "y": 64,
+        "w": 41,
+        "h": 51
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-taking-damage-2.png": {
+      "frame": {
+        "x": 156,
+        "y": 0,
+        "w": 42,
+        "h": 50
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 59,
+        "y": 61,
+        "w": 42,
+        "h": 50
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-taking-damage-4.png": {
+      "frame": {
+        "x": 141,
+        "y": 148,
+        "w": 42,
+        "h": 50
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 61,
+        "y": 62,
+        "w": 42,
+        "h": 50
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-taking-damage-3.png": {
+      "frame": {
+        "x": 156,
+        "y": 97,
+        "w": 42,
+        "h": 49
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 59,
+        "y": 62,
+        "w": 42,
+        "h": 49
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-running-left-4.png": {
+      "frame": {
+        "x": 192,
+        "y": 50,
+        "w": 38,
+        "h": 47
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 66,
+        "y": 72,
+        "w": 38,
+        "h": 47
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-running-left-5.png": {
+      "frame": {
+        "x": 230,
+        "y": 50,
+        "w": 38,
+        "h": 47
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 66,
+        "y": 71,
+        "w": 38,
+        "h": 47
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-running-left-6.png": {
+      "frame": {
+        "x": 198,
+        "y": 0,
+        "w": 38,
+        "h": 47
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 66,
+        "y": 70,
+        "w": 38,
+        "h": 47
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-running-right-2.png": {
+      "frame": {
+        "x": 236,
+        "y": 0,
+        "w": 38,
+        "h": 47
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 66,
+        "y": 69,
+        "w": 38,
+        "h": 47
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-running-right-4.png": {
+      "frame": {
+        "x": 183,
+        "y": 146,
+        "w": 38,
+        "h": 47
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 66,
+        "y": 72,
+        "w": 38,
+        "h": 47
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-running-right-5.png": {
+      "frame": {
+        "x": 201,
+        "y": 97,
+        "w": 38,
+        "h": 47
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 66,
+        "y": 71,
+        "w": 38,
+        "h": 47
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-running-right-6.png": {
+      "frame": {
+        "x": 239,
+        "y": 97,
+        "w": 38,
+        "h": 47
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 66,
+        "y": 70,
+        "w": 38,
+        "h": 47
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-dying-1.png": {
+      "frame": {
+        "x": 268,
+        "y": 47,
+        "w": 44,
+        "h": 46
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 61,
+        "y": 66,
+        "w": 44,
+        "h": 46
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-running-left-1.png": {
+      "frame": {
+        "x": 277,
+        "y": 0,
+        "w": 38,
+        "h": 45
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 66,
+        "y": 70,
+        "w": 38,
+        "h": 45
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-running-right-1.png": {
+      "frame": {
+        "x": 315,
+        "y": 0,
+        "w": 38,
+        "h": 45
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 66,
+        "y": 70,
+        "w": 38,
+        "h": 45
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-running-left-3.png": {
+      "frame": {
+        "x": 0,
+        "y": 624,
+        "w": 38,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 66,
+        "y": 73,
+        "w": 38,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-running-right-3.png": {
+      "frame": {
+        "x": 0,
+        "y": 668,
+        "w": 38,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 66,
+        "y": 73,
+        "w": 38,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-running-left-8.png": {
+      "frame": {
+        "x": 0,
+        "y": 712,
+        "w": 39,
+        "h": 43
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 66,
+        "y": 71,
+        "w": 39,
+        "h": 43
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-running-right-8.png": {
+      "frame": {
+        "x": 38,
+        "y": 624,
+        "w": 39,
+        "h": 43
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 66,
+        "y": 71,
+        "w": 39,
+        "h": 43
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-running-left-7.png": {
+      "frame": {
+        "x": 38,
+        "y": 667,
+        "w": 38,
+        "h": 43
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 66,
+        "y": 72,
+        "w": 38,
+        "h": 43
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "necromancer-running-right-7.png": {
+      "frame": {
+        "x": 42,
+        "y": 550,
+        "w": 38,
+        "h": 43
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 66,
+        "y": 72,
+        "w": 38,
+        "h": 43
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "necromancer.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 353,
+      "h": 755
+    },
+    "scale": 1
+  }
+}

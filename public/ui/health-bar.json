@@ -1,0 +1,159 @@
+{
+  "frames": {
+    "health-ui-1.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 34,
+        "h": 5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 4,
+        "w": 34,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 44,
+        "h": 12
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "health-ui-2.png": {
+      "frame": {
+        "x": 34,
+        "y": 0,
+        "w": 34,
+        "h": 5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 4,
+        "w": 34,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 44,
+        "h": 12
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "health-ui-3.png": {
+      "frame": {
+        "x": 68,
+        "y": 0,
+        "w": 34,
+        "h": 5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 4,
+        "w": 34,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 44,
+        "h": 12
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "health-ui-4.png": {
+      "frame": {
+        "x": 102,
+        "y": 0,
+        "w": 34,
+        "h": 5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 4,
+        "w": 34,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 44,
+        "h": 12
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "health-ui-5.png": {
+      "frame": {
+        "x": 136,
+        "y": 0,
+        "w": 34,
+        "h": 5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 4,
+        "w": 34,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 44,
+        "h": 12
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "health-ui-6.png": {
+      "frame": {
+        "x": 170,
+        "y": 0,
+        "w": 34,
+        "h": 5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 4,
+        "w": 34,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 44,
+        "h": 12
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "health-bar.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 204,
+      "h": 5
+    },
+    "scale": 1
+  }
+}

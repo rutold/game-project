@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #container {
+            border-radius: 10px;
+            box-shadow: 0 12px 6px rgba(0, 0, 0, 0.1);
+            margin: 50px auto;
+            padding: 30px;
+            width: 80%;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-top: 0;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+        select {
+            padding: 5px;
+            width: 100%;
+        }
+        button {
+            background-color: #007bff;
+            border: none;
+            color: #fff;
+            padding: 10px 20px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <h1>Select Character</h1>
+    <form id="characterForm">
+        <div class="form-group">
+            <label for="characterSelect">Choose a character:</label>
+            <select id="characterSelect" name="characterSelect">
+            </select>
+        </div>
+    </form>
+</div>
+</body>
+</html>
