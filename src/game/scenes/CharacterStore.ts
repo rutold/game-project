@@ -32,7 +32,10 @@ export class CharacterStore extends Scene {
     }
     async loadUpgradesFromDatabase(successCallback: Function, failureCallback: Function) {
         try {
-            const response = await axios.get('https://rutold.onrender.com/gameData/characters');
+            const jwtToken = this.authService.getToken();
+            const response = await axios.get('https://rutold.onrender.com/gameData/characters', {
+                headers: { 'Authorization': `Bearer ${jwtToken}` }
+            });
             this.characters = response.data
             for (const character of this.characters) {
                 

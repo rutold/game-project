@@ -33,7 +33,10 @@ export class Store extends Scene {
     }
     async loadUpgradesFromDatabase(successCallback: Function, failureCallback: Function) {
         try {
-            const response = await axios.get('https://rutold.onrender.com/gameData/upgrades');
+            const jwtToken = this.authService.getToken();
+            const response = await axios.get('https://rutold.onrender.com/gameData/upgrades', {
+                headers: { 'Authorization': `Bearer ${jwtToken}` }
+            });
             this.upgrades = response.data
             const upgrades = response.data;
             for (const upgrade of upgrades) {
