@@ -30,7 +30,7 @@ export default class ChatUI extends Phaser.Scene {
     }
 
      init(data) {
-        this.socket = new SockJS('https://rutold.onrender.com/ws');
+        this.socket = new SockJS('https://rutold.onrender.com/wss');
         this.stompClient = Stomp.over(this.socket);
         this.currentChannel = '/topic/public';
 
