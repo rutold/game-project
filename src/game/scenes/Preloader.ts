@@ -47,7 +47,7 @@ export class Preloader extends Scene {
 
     async loadCharactersFromDatabase(successCallback: Function, failureCallback: Function) {
         try {
-            const response = await axios.get('https://rutold.onrender.com//gameData/characters', {
+            const response = await axios.get('https://rutold.onrender.com/gameData/characters', {
                 headers: { 'Authorization': `Bearer ${this.authService.getToken()}` }
             });
             const charactersData: CharacterTemplate[] = response.data;
@@ -68,7 +68,7 @@ export class Preloader extends Scene {
 
     async loadEnemiesFromDatabase(successCallback: Function, failureCallback: Function) {
         try {
-            const response = await axios.get('https://rutold.onrender.com//gameData/enemies', {
+            const response = await axios.get('https://rutold.onrender.com/gameData/enemies', {
                 headers: { 'Authorization': `Bearer ${this.authService.getToken()}` }
             });
             const enemies = response.data;
@@ -84,7 +84,7 @@ export class Preloader extends Scene {
 
     async loadAbilitiesFromDatabase(successCallback: Function, failureCallback: Function) {
         try {
-            const response = await axios.get('https://rutold.onrender.com//gameData/abilities', {
+            const response = await axios.get('https://rutold.onrender.com/gameData/abilities', {
                 headers: { 'Authorization': `Bearer ${this.authService.getToken()}` }
             });
             const abilities = response.data;
@@ -100,7 +100,7 @@ export class Preloader extends Scene {
 
     async loadGameUIFromDatabase(successCallback: Function, failureCallback: Function) {
         try {
-            const response = await axios.get('https://rutold.onrender.com//gameData/game-ui', {
+            const response = await axios.get('https://rutold.onrender.com/gameData/game-ui', {
                 headers: { 'Authorization': `Bearer ${this.authService.getToken()}` }
             });
             const gameUI = response.data;

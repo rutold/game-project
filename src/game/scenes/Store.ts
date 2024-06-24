@@ -33,7 +33,7 @@ export class Store extends Scene {
     }
     async loadUpgradesFromDatabase(successCallback: Function, failureCallback: Function) {
         try {
-            const response = await axios.get('https://rutold.onrender.com//gameData/upgrades');
+            const response = await axios.get('https://rutold.onrender.com/gameData/upgrades');
             this.upgrades = response.data
             const upgrades = response.data;
             for (const upgrade of upgrades) {
@@ -61,7 +61,7 @@ export class Store extends Scene {
             let counter:number;
 
             try {
-                const response = await axios.get(`https://rutold.onrender.com//User/upgrades/${user.userid}/${upgrade.id}`, {
+                const response = await axios.get(`https://rutold.onrender.com/User/upgrades/${user.userid}/${upgrade.id}`, {
                     headers: { 'Authorization': `Bearer ${jwtToken}` }
                 });
 
@@ -84,7 +84,7 @@ export class Store extends Scene {
                 ((currentTier) => {
                     buyButton.on('pointerdown', async () => {
                         try {
-                            await axios.post(`https://rutold.onrender.com//User/${user.userid}/upgrades/${upgrade.id}`, {}, {
+                            await axios.post(`https://rutold.onrender.com/User/${user.userid}/upgrades/${upgrade.id}`, {}, {
                                 headers: { 'Authorization': `Bearer ${jwtToken}` }
                             });
                             upgradeText.destroy();

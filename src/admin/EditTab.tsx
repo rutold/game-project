@@ -21,7 +21,7 @@ const EditTab: React.FC = () => {
     let authService = new AuthenticationService();
     authService.init();
     useEffect(() => {
-        axios.get('https://rutold.onrender.com//gameData/characters', {
+        axios.get('https://rutold.onrender.com/gameData/characters', {
             headers: {
                 'Authorization': `Bearer ${authService.getToken()}`
             }
@@ -48,7 +48,7 @@ const EditTab: React.FC = () => {
     };
     const handleSubmit = () => {
         if (selectedCharacter) {
-            axios.post('https://rutold.onrender.com//gameData/character/edit', selectedCharacter , {
+            axios.post('https://rutold.onrender.com/gameData/character/edit', selectedCharacter , {
                 headers: {
                     'Authorization': `Bearer ${authService.getToken()}`
                 }

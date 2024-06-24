@@ -84,7 +84,7 @@ export class SelectCharacter extends Scene {
         if(this.selectedDifficulty.value){
            if(this.isMakingNewGame){
                try {
-                   const response = await axios.post(`https://rutold.onrender.com//gameData/createGame`,{
+                   const response = await axios.post(`https://rutold.onrender.com/gameData/createGame`,{
                        game: this.NewGameInput.value,
                        difficulty:this.selectedDifficulty.value
                    } ,{
@@ -110,7 +110,7 @@ export class SelectCharacter extends Scene {
                 errorMessage.style.display = 'block';
                 errorMessage.textContent = 'An error occurred. Please try again.';
             } else {
-                const response = await axios.get(`https://rutold.onrender.com//gameData/game/${ this.ExistingGameInput.value}`, {
+                const response = await axios.get(`https://rutold.onrender.com/gameData/game/${ this.ExistingGameInput.value}`, {
                     headers: { 'Authorization': `Bearer ${this.token}` }
                 });
                 if (response.data) {
@@ -148,7 +148,7 @@ export class SelectCharacter extends Scene {
                 errorMessage.textContent = 'An error occurred. Please try again.';
             }
             else{
-                const response = await axios.get(`https://rutold.onrender.com//gameData/game/${this.NewGameInput.value}`, {
+                const response = await axios.get(`https://rutold.onrender.com/gameData/game/${this.NewGameInput.value}`, {
                     headers: { 'Authorization': `Bearer ${this.token}` }
                 });
                 if(response.data){
@@ -170,7 +170,7 @@ export class SelectCharacter extends Scene {
     }
     async loadOwnedAndFreeCharacters() {
         try {
-            const response = await axios.get(`https://rutold.onrender.com//User/userRelatedCharacters/${this.user.userid}`, {
+            const response = await axios.get(`https://rutold.onrender.com/User/userRelatedCharacters/${this.user.userid}`, {
                 headers: { 'Authorization': `Bearer ${this.token}` }
             });
             if (response.data) {

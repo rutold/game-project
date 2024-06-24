@@ -56,7 +56,7 @@ const AccountDetails = () => {
 
         try {
             const emailFromToken = getEmailFromToken();
-            const response = await axios.put(`https://rutold.onrender.com//register/profile/${emailFromToken}`, userData, {
+            const response = await axios.put(`https://rutold.onrender.com/register/profile/${emailFromToken}`, userData, {
                 headers: {
                     'Authorization': `Bearer ${jwtToken}`
                 }

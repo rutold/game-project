@@ -11,7 +11,7 @@ describe('Phaser App E2E Tests', () => {
         cy.get('input[name="password"]').type('12345678', { force: true });
         cy.get('button[type="button"]').click();
         
-        cy.intercept('POST', 'https://rutold.onrender.com//tokens').as('postLogin');
+        cy.intercept('POST', 'https://rutold.onrender.com/tokens').as('postLogin');
         cy.wait('@postLogin').then((interception) => {
             expect(interception.response.statusCode).to.equal(201);
             cy.window().then((win) => {
@@ -30,7 +30,7 @@ describe('Phaser App E2E Tests', () => {
         cy.get('button[class="checkExisting"]').click();
         cy.get('canvas').then(($canvas) => {
             
-            cy.intercept('POST', 'https://rutold.onrender.com//User/*/upgrades/*').as('buyUpgrade');
+            cy.intercept('POST', 'https://rutold.onrender.com/User/*/upgrades/*').as('buyUpgrade');
             cy.get('canvas').click(650, 1340);
             
             cy.wait(2000);
