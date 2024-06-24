@@ -56,7 +56,7 @@ export class Game extends Scene
         const user = this.authService.getUser();
         const jwtToken = this.authService.getToken();
         try {
-            const response = await axios.get(`https://rutold.onrender.com/:10000/User/upgrades/user/${user.userid}`, {
+            const response = await axios.get(`https://rutold.onrender.com//User/upgrades/user/${user.userid}`, {
                 headers: {'Authorization': `Bearer ${jwtToken}`}
             });
             if (response.data) {

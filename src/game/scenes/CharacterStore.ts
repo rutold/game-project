@@ -32,7 +32,7 @@ export class CharacterStore extends Scene {
     }
     async loadUpgradesFromDatabase(successCallback: Function, failureCallback: Function) {
         try {
-            const response = await axios.get('https://rutold.onrender.com/:10000/gameData/characters');
+            const response = await axios.get('https://rutold.onrender.com//gameData/characters');
             this.characters = response.data
             for (const character of this.characters) {
                 
@@ -57,7 +57,7 @@ export class CharacterStore extends Scene {
             let userOwnsCharacter = false;
             let characterText:Phaser.GameObjects.Text;
             try {
-                const response = await axios.get(`https://rutold.onrender.com/:10000/User/character/${character.id}/user/${user.userid}`, {
+                const response = await axios.get(`https://rutold.onrender.com//User/character/${character.id}/user/${user.userid}`, {
                     headers: { 'Authorization': `Bearer ${jwtToken}` }
                 });
                 if (response.data) {
@@ -78,7 +78,7 @@ export class CharacterStore extends Scene {
                 buyButton = this.add.text(x, y + 110, 'Buy', { fontSize: '20px', color: '#0f0' }).setOrigin(0.5).setInteractive();
                     buyButton.on('pointerdown', async () => {
                         try {
-                            await axios.post(`https://rutold.onrender.com/:10000/User/${user.userid}/characters/${character.id}`, {}, {
+                            await axios.post(`https://rutold.onrender.com//User/${user.userid}/characters/${character.id}`, {}, {
                                 headers: { 'Authorization': `Bearer ${jwtToken}` }
                             });
                                 buyButton.destroy()

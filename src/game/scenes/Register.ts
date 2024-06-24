@@ -27,7 +27,7 @@ export class Register extends Scene {
             const password = passwordInput.value;
 
             try {
-                const response = await axios.post('https://rutold.onrender.com/:10000/User', {
+                const response = await axios.post('https://rutold.onrender.com//User', {
                     username: username,
                     email: email,
                     password: password,

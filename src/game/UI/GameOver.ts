@@ -38,7 +38,7 @@ export default class GameOver extends Phaser.Scene {
     async storeGameScore(finalScore :number, userId: number, token: string) {
         try {
             console.log(this.game)
-           await axios.post('https://rutold.onrender.com/:10000/gameData/saveScores', {
+           await axios.post('https://rutold.onrender.com//gameData/saveScores', {
                 game: this.game,
                 userid: userId,
                 score: finalScore
@@ -54,7 +54,7 @@ export default class GameOver extends Phaser.Scene {
 
     async storeScore(finalScore :number, userId: number, token: string) {
         try {
-            const response = await axios.post('https://rutold.onrender.com/:10000/User/addCurrency', {
+            const response = await axios.post('https://rutold.onrender.com//User/addCurrency', {
                 user_id: userId,
                 score: finalScore
             }, {

@@ -36,7 +36,7 @@ export class Login extends Scene {
             const password = passwordInput.value;
 
             try {
-                const response = await axios.post('https://rutold.onrender.com/:10000/tokens', { username, password });
+                const response = await axios.post('https://rutold.onrender.com//tokens', { username, password });
                 const jwtToken = response.headers['jwt-token'];
                 localStorage.setItem('token', jwtToken);
                 

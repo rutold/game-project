@@ -53,7 +53,7 @@ const StatisticsTab: React.FC = () => {
         authService.init();
     }, []);
     useEffect(() => {
-        axios.get('https://rutold.onrender.com/:10000/gameData/TopScores', {
+        axios.get('https://rutold.onrender.com//gameData/TopScores', {
             headers: {
                 'Authorization': `Bearer ${authService.getToken()}`
             }
@@ -65,7 +65,7 @@ const StatisticsTab: React.FC = () => {
                 console.error('There was an error fetching the top scores!', error);
             });
 
-        axios.get('https://rutold.onrender.com/:10000/gameData/TopGames', {
+        axios.get('https://rutold.onrender.com//gameData/TopGames', {
             headers: {
                 'Authorization': `Bearer ${authService.getToken()}`
             }
