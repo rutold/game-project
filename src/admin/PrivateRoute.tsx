@@ -18,9 +18,11 @@ const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ children }) => {
                 
                 if (authService.isAnAdmin()) {
                     setIsAuthenticated(true);
+                    console.log("true")
                 }
             } catch (error) {
                 console.error('Authentication failed:', error);
+                console.log("not")
             } finally {
                 setLoading(false);
             }
